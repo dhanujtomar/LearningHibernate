@@ -1,0 +1,17 @@
+package com.Hibernate.HibernateProject;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Alien dj = new Alien();
+        
+        dj.setAid(101);
+        dj.setName("Dhanuj");
+        dj.setColor("Navy-Blue");
+    }
+}
